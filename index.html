@@ -13,7 +13,17 @@
 
 <body class="grid">
 	<script>
-
+		var noun1 = document.getElementById("noun").value;
+				
+				var verb1 = document.getElementById("verb").value;
+				
+				var color1 = document.getElementById("color").value;
+				
+				var landmark1 = document.getElementById("landmark").value;
+				
+				document.getElementById("button_a").addEventListener("click", function(){
+				document.getElementById("output_one").innerHTML = "One day we were " + verb1 + " past the " + landmark1 + " when a " + color1 + " " + noun1 + " flew right at us.";});
+		
 
 
 </script>
